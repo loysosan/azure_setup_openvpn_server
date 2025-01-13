@@ -19,14 +19,11 @@
     ```
 
 4. Copy the content of the configuration file or transfer the file to your local machine using `scp`:
-    - To display the file content:
+    - To display and copy the file content:
         ```bash
         cat /root/client-configs/andreyb.ovpn
         ```
-    - To copy the file:
-        ```bash
-        scp -i ~/.ssh/privatvpnkey.pem adminuser@vpn.server.ip:/root/client-configs/andreyb.ovpn ~/path/to/local/directory/
-        ```
+
 
 5. Create a connection profile in the OpenVPN client using the configuration file.
 
