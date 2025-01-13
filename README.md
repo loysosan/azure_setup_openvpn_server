@@ -25,7 +25,7 @@
         ```
     - To copy the file:
         ```bash
-        scp -i ~/.ssh/privatvpnkey.pem dudechadminuseremadmin@vpn.server.ip:/root/client-configs/andreyb.ovpn ~/path/to/local/directory/
+        scp -i ~/.ssh/privatvpnkey.pem adminuser@vpn.server.ip:/root/client-configs/andreyb.ovpn ~/path/to/local/directory/
         ```
 
 5. Create a connection profile in the OpenVPN client using the configuration file.
